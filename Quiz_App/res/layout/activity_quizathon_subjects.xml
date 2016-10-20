@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="${relativePackage}.${activityClass}" 
+    android:background="@android:color/black">
+
+    <RelativeLayout
+        android:id="@+id/quizathon_title_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:gravity="bottom" >
+
+        <TextView
+            android:id="@+id/quizathon_title_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#0000e2"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginBottom="10dp"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/quizathon_list_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:gravity="center_horizontal"
+        android:weightSum="1" >
+
+        <ListView
+            android:id="@+id/quizathon_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center" 
+            android:scrollbars="none">
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

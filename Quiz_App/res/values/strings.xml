@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Quiz_App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="quizathon">Quizathon</string>
+    <string name="quiz1">Quiz1</string>
+    <string name="quiz2">Quiz2</string>
+    <string name="quiz3">Quiz3</string>
+    <string name="quiz4">Quiz4</string>
+    <string name="quiz5">Quiz5</string>
+
+</resources>
